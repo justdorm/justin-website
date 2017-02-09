@@ -1,0 +1,9 @@
+{{#each datafiles.portfolio.data}}
+{{#if this.alt}}
+<img src="/images/{{this.src}}" alt="{{this.alt}}" width="320px" height="100%" onclick="window.location='/images/{{this.src}}'">
+{{else if this.title}}
+<img src="/images/{{this.src}}" alt="{{this.title}}" width="320px" height="100%" onclick="window.location='/images/{{this.src}}'">
+{{else}}
+<img src="/images/{{this.src}}" width="320px" height="100%" onclick="window.location='/images/{{this.src}}'">
+{{/if}}
+{{/each}}

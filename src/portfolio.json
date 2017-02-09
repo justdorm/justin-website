@@ -1,0 +1,16 @@
+[
+  {
+    "title": "Jeremy",
+    "src": "jeremy.jpg",
+    "alt": "He is awesome"
+  },
+  {
+    "title": "Livre Reader",
+    "src": "livre-screenshot.png"
+  },
+  {
+    "title": "Salt Lake City Nighttime View",
+    "src": "slc.jpg",
+    "alt": "Pretty lights!"
+  }
+]
