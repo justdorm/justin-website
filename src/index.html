@@ -1,5 +1,9 @@
+<!--
+title: Home
+-->
+<h1>Justin Dormitzer</h1>
 {{#each datafiles.portfolio.data}}
-<a href="/{{kebabCase @key}}">
+<a class="category-listing col-s-12 col-m-6" href="/{{kebabCase @key}}">
     <h4>{{@key}}</h4>
     <img src="/images/{{this.[0].src}}" alt="{{this.[0].alt}}">
 </a>

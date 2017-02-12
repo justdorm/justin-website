@@ -1,12 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="style.css">
-    <title>Justin Dormitzer</title>
-</head>
-<body>
-{{{body}}}
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="stylesheets/fonts.css">
+        <link rel="stylesheet" href="stylesheets/grid.css">
+        <link rel="stylesheet" href="stylesheets/style.css">
+        <title>{{ page.title }} | Justin Dormitzer</title>
+    </head>
+    <body>
+        <div class="container">
+            <header>
+                <div class="home-icon">
+                    <a href="/">
+                        <img src="/images/justin-icon.png"></img>
+                    </a>
+                </div>
+                <ul class="nav">
+                    <li><a href="/contact">Contact</a></li>
+                    <li><a href="/">Portfolio</a></li>
+                </ul>
+            </header>
+            <div class="content">
+                {{#if page.category}}
+                <div class="row">
+                    {{#each (lookup datafiles.portfolio.data page.category)}}
+                    <div class="col-s-12 col-3">
+                        <h4>{{this.title}}</h4>
+                        <a href="/images/{{this.src}}"><img src="/images/{{this.src}}" alt="{{this.alt}}"></a>
+                    </div>
+                    {{/each}}
+                </div>
+                {{else}}
+                {{{body}}}
+                {{/if}}
+            </div>
+        </div>
+    </body>
 </html>

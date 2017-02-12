@@ -20,7 +20,7 @@ for (var category in portfolio) {
         continue;
     }
     var categoryFile = path.join(".", "src", kebabCase(category) + ".html");
-    var categoryHtml = "<!--\ncategory: " + category + "\nlayout: category\n-->";
+    var categoryHtml = "<!--\ntitle: " + category + "\ncategory: " + category + "\n-->";
     fs.writeFileSync(categoryFile, categoryHtml);
     console.log("Wrote " + categoryFile + ".");
 }
