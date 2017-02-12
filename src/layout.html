@@ -26,8 +26,10 @@
                 <div class="row">
                     {{#each (lookup datafiles.portfolio.data page.category)}}
                     <div class="col-s-12 col-3">
-                        <h4>{{this.title}}</h4>
-                        <a href="/images/{{this.src}}"><img src="/images/{{this.src}}" alt="{{this.alt}}"></a>
+                        <a class="image-listing" href="/images/{{this.src}}">
+                            <p>{{this.title}}</p>
+                            <img src="/images/{{this.src}}" alt="{{this.alt}}">
+                        </a>
                     </div>
                     {{/each}}
                 </div>

@@ -65,6 +65,15 @@ header + * {
     clear: both;
 }
 
+.image-listing {
+    text-decoration: none;
+    transition: opacity 0.3s;
+}
+
+.image-listing:hover {
+    opacity: 0.5;
+}
+
 @media only screen and (min-width: 600px) {
     .category-listing > img {
         max-width: 400px;
