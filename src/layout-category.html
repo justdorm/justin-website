@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <title>Justin Dormitzer</title>
+</head>
+<body>
+    {{#each (lookup datafiles.portfolio.data page.category)}}
+    <h4>{{this.title}}</h4>
+    <img src="/images/{{this.src}}" alt="{{this.alt}}" width="320px" height="100%" onclick="window.location='/images/{{this.src}}'">
+    {{/each}}
+</body>
+</html>
