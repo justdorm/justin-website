@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "Justin Dormitzer's personal website",
   "scripts": {
-    "start": "jus serve ./src",
-    "build": "jus compile ./src ./docs"
+    "start": "node createCategoryPages.js && jus serve ./src",
+    "build": "node createCategoryPages.js && jus compile ./src ./docs"
   },
   "repository": {
     "type": "git",

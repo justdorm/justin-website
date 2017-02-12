@@ -6,10 +6,6 @@
       "alt": "He is awesome"
     },
     {
-      "title": "Livre Reader",
-      "src": "livre-screenshot.png"
-    },
-    {
       "title": "Salt Lake City Nighttime View",
       "src": "slc.jpg",
       "alt": "Pretty lights!"
@@ -22,14 +18,20 @@
       "alt": "Pretty trippy"
     },
     {
+      "title": "Landscape",
+      "src": "landscape1.jpg",
+      "alt": "I have no idea what to say"
+    }
+  ],
+  "Category Three": [
+    {
       "title": "Jeeves",
       "src": "butler.jpg",
       "alt": "He's more dangerous than he looks"
     },
     {
-      "title": "Landscape",
-      "src": "landscape1.jpg",
-      "alt": "I have no idea what to say"
+      "title": "Livre Reader",
+      "src": "livre-screenshot.png"
     }
   ]
 }
