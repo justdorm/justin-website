@@ -1,0 +1,72 @@
+* {
+  font-family: inherit;
+  line-height: inherit;
+  color: inherit;
+}
+
+html {
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 125%;
+  line-height: 1.5;
+  color: #444;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Molengo", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  margin: auto;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+
+.content {
+  padding-top: 2em;
+}
+
+header > ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+header > ul > li {
+  float: right;
+}
+
+header > ul > li > a {
+  display: block;
+  padding: 8px;
+  text-decoration: none;
+}
+
+header > ul > li > a:hover {
+  color: #a6d5e5;
+}
+
+header > .home-icon {
+  float: left;
+  height: 1.5em;
+  width: auto;
+}
+
+header + * {
+  clear: both;
+}
+
+@media only screen and (min-width: 600px) {
+  .category-listing > img {
+    max-width: 400px;
+  }
+}

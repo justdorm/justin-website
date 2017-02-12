@@ -1,0 +1,36 @@
+{
+  "Category One": [
+    {
+      "title": "Jeremy",
+      "src": "jeremy.jpg",
+      "alt": "He is awesome"
+    },
+    {
+      "title": "Livre Reader",
+      "src": "livre-screenshot.png",
+      "alt": "The prettiest eBook reader"
+    },
+    {
+      "title": "Salt Lake City Nighttime View",
+      "src": "slc.jpg",
+      "alt": "Pretty lights!"
+    }
+  ],
+  "Category Two": [
+    {
+      "title": "Primitive Jeremy",
+      "src": "jeremy-primitive.jpg",
+      "alt": "Pretty trippy"
+    },
+    {
+      "title": "Jeeves",
+      "src": "butler.jpg",
+      "alt": "He's more dangerous than he looks"
+    },
+    {
+      "title": "Landscape",
+      "src": "landscape1.jpg",
+      "alt": "I have no idea what to say"
+    }
+  ]
+}

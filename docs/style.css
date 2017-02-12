@@ -1,0 +1,16 @@
+* {
+  font-family: inherit;
+  line-height: inherit;
+  color: inherit;
+}
+
+* + * {
+  margin-top: 1.5em;
+}
+
+html {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 125%;
+  line-height: 1.5;
+  color: #222;
+}
