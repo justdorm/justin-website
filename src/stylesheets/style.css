@@ -57,8 +57,10 @@ header > ul {
     padding: 0;
 }
 
-header > ul > li {
-    float: right;
+@media only screen and (min-width: 768px) {
+    header > ul > li {
+        float: right;
+    }
 }
 
 header > ul > li > a {
@@ -72,9 +74,8 @@ header > ul > li > a:hover {
 }
 
 header > .home-icon {
-    float: left;
-    height: 1.5em;
-    width: auto;
+    text-align: center;
+    overflow: 
 }
 
 header + * {
@@ -88,6 +89,17 @@ header + * {
 
 .image-listing:hover {
     opacity: 0.5;
+}
+
+.image-listing > img {
+    object-fit: cover;
+    width: 230px;
+    height: 230px;
+}
+
+.category-listing > img {
+    width: 460px;
+    height: 460px;
 }
 
 @media only screen and (min-width: 600px) {

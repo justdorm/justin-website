@@ -3,7 +3,7 @@ title: Home
 -->
 <h1>Justin Dormitzer</h1>
 {{#each datafiles.portfolio.data}}
-<a class="image-listing category-listing col-s-12 col-m-6" href="/{{kebabCase @key}}">
+<a class="image-listing category-listing col-m-12 col-6" href="/{{kebabCase @key}}">
     <p>{{@key}}</p>
     <img src="/images/{{this.[0].src}}" alt="{{this.[0].alt}}">
 </a>
