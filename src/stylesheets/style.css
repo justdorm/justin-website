@@ -1,7 +1,7 @@
 * {
     font-family: inherit;
     line-height: inherit;
-    color: inherit
+    color: inherit;
 }
 
 html {
@@ -78,6 +78,10 @@ header > .home-icon {
     overflow: 
 }
 
+header > .home-icon:focus {
+    outline: none;
+}
+
 header + * {
     clear: both;
 }
@@ -104,6 +108,15 @@ header + * {
 .category-listing > img {
     width: 400px;
     height: 400px;
+}
+
+.image-heading {
+    margin-bottom: 0;
+}
+
+.subheading {
+    font-size: 75%;
+    margin-top: 0.5em;
 }
 
 @media only screen and (min-width: 600px) {

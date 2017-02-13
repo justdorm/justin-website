@@ -21,10 +21,12 @@
             </header>
             <div class="content">
                 {{#if page.category}}
+                <h1>{{page.category}}</h1>
                 <div class="row">
                     {{#each (lookup datafiles.portfolio.data page.category)}}
                     <a class="image-listing col-s-12 col-3" href="/images/{{this.src}}">
-                        <p>{{this.title}}</p>
+                        <h4 class="image-heading">{{this.title}}</h4>
+                        <p class="subheading">{{this.medium}}</p>
                         <img src="/images/{{this.src}}" alt="{{this.alt}}">
                     </a>
                     {{/each}}
