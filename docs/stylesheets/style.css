@@ -9,6 +9,12 @@ html {
   font-size: 125%;
   line-height: 1.5;
   color: #444;
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  margin: 0;
 }
 
 h1,
@@ -19,20 +25,54 @@ h5 {
   font-family: "Molengo", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
+footer {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  height: 1.5em;
+  text-align: center;
+  margin-bottom: 0.5em;
+}
+
 img {
   max-width: 100%;
   height: auto;
   margin: auto;
 }
 
+img.circle {
+  border-radius: 50%;
+}
+
+.right {
+  float: right;
+}
+
+.left {
+  float: left;
+}
+
 .container {
+  min-height: 100%;
   width: 80%;
   margin: auto;
   text-align: center;
+  position: relative;
 }
 
 .content {
   padding-top: 2em;
+  padding-bottom: 1.5em;
+  min-height: 100%;
+}
+
+.content::after {
+  clear: both;
+}
+
+.contact {
+  text-align: left;
 }
 
 header > ul {
@@ -41,8 +81,10 @@ header > ul {
   padding: 0;
 }
 
-header > ul > li {
-  float: right;
+@media only screen and (min-width: 768px) {
+  header > ul > li {
+    float: right;
+  }
 }
 
 header > ul > li > a {
@@ -56,13 +98,51 @@ header > ul > li > a:hover {
 }
 
 header > .home-icon {
-  float: left;
-  height: 1.5em;
-  width: auto;
+  text-align: center;
+  overflow: ;
+}
+
+header > .home-icon:focus {
+  outline: none;
 }
 
 header + * {
   clear: both;
+}
+
+.image-listing {
+  text-decoration: none;
+  -webkit-transition: opacity 0.3s;
+  transition: opacity 0.3s;
+}
+
+.image-listing:hover {
+  opacity: 0.5;
+}
+
+.image-listing:focus {
+  outline: none;
+}
+
+.image-listing > img {
+  -o-object-fit: cover;
+  object-fit: cover;
+  width: 230px;
+  height: 230px;
+}
+
+.category-listing > img {
+  width: 400px;
+  height: 400px;
+}
+
+.image-heading {
+  margin-bottom: 0;
+}
+
+.subheading {
+  font-size: 75%;
+  margin-top: 0.5em;
 }
 
 @media only screen and (min-width: 600px) {
