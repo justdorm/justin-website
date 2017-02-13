@@ -22,13 +22,15 @@ h1, h2, h3, h4, h5 {
 }
 
 footer {
-    position: absolute;
     bottom: 0;
     right: 0;
     left: 0;
     height: 1.5em;
     text-align: center;
-    margin-bottom: 0.5em;
+}
+
+footer > span {
+    padding-bottom: 0.5em;
 }
 
 img {
@@ -84,6 +86,13 @@ header > ul {
 @media only screen and (min-width: 768px) {
     header > ul > li {
         float: right;
+    }
+    footer {
+        position: absolute;
+        margin-bottom: 0.5em;
+    }
+    footer > span {
+        padding-bottom: 0;
     }
 }
 
