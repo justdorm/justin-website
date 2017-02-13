@@ -91,6 +91,10 @@ header + * {
     opacity: 0.5;
 }
 
+.image-listing:focus {
+    outline: none;
+}
+
 .image-listing > img {
     object-fit: cover;
     width: 230px;
@@ -98,8 +102,8 @@ header + * {
 }
 
 .category-listing > img {
-    width: 460px;
-    height: 460px;
+    width: 400px;
+    height: 400px;
 }
 
 @media only screen and (min-width: 600px) {
