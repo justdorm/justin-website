@@ -4,7 +4,8 @@
   "description": "Justin Dormitzer's personal website",
   "scripts": {
     "start": "node createCategoryPages.js && jus serve ./src",
-    "build": "node createCategoryPages.js && jus compile ./src ./docs"
+    "build": "node createCategoryPages.js && jus compile ./src ./docs",
+    "deploy": "npm run build && git commit ./docs -m \"Automated build commit\" && git push"
   },
   "repository": {
     "type": "git",
