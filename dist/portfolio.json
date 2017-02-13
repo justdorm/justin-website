@@ -1,0 +1,174 @@
+{
+  "Fine Art": [
+    {
+      "title": "Apple",
+      "medium": "Digital Painting",
+      "src": "apple.jpg",
+      "alt": "Apple"
+    },
+    {
+      "title": "Portrait",
+      "medium": "Digital Painting",
+      "src": "portrait.jpg",
+      "alt": "Portrait"
+    },
+    {
+      "title": "Glass of Water",
+      "medium": "Digital Painting",
+      "src": "glass-of-water.jpg",
+      "alt": "Glass of Water"
+    },
+    {
+      "title": "Digital Material Studies",
+      "medium": "Digital Painting",
+      "src": "digital-material-studies.jpg",
+      "alt": "Digital Material Studies"
+    },
+    {
+      "title": "The Bubbles",
+      "medium": "HDR Photography",
+      "src": "bubbles.jpg",
+      "alt": "The Bubbles"
+    },
+    {
+      "title": "Coffee Shop",
+      "medium": "HDR Photography",
+      "src": "coffee-shop.jpg",
+      "alt": "Coffee Shop"
+    },
+    {
+      "title": "Matt",
+      "medium": "Photography",
+      "src": "matt.jpg",
+      "alt": "Matt"
+    },
+    {
+      "title": "Ash",
+      "medium": "Photography",
+      "src": "ash.jpg",
+      "alt": "Ash"
+    },
+    {
+      "title": "Observational Drawings",
+      "medium": "Graphite/Charcoal",
+      "src": "observational-drawings.jpg",
+      "alt": "Observational Drawings"
+    },
+    {
+      "title": "Old Man",
+      "medium": "Ink Drawing",
+      "src": "old-man.jpg",
+      "alt": "Old Man"
+    },
+    {
+      "title": "Marker Sketches",
+      "medium": "Marker on Bristol Board",
+      "src": "marker-sketches.jpg",
+      "alt": "Marker Sketches"
+    },
+    {
+      "title": "Ashlyn",
+      "medium": "Digital Painting",
+      "src": "ashlyn.jpg",
+      "alt": "Ashlyn"
+    },
+    {
+      "title": "The Square",
+      "medium": "Photography",
+      "src": "the-square.jpg",
+      "alt": "The Square"
+    },
+    {
+      "title": "Maria",
+      "medium": "Film Photography",
+      "src": "maria.jpg",
+      "alt": "Maria"
+    },
+    {
+      "title": "Chairs",
+      "medium": "Film Photography",
+      "src": "chairs.jpg",
+      "alt": "Chairs"
+    },
+    {
+      "title": "Lightbulb",
+      "medium": "Film Photography",
+      "src": "lightbulb.jpg",
+      "alt": "Lightbulb"
+    }
+  ],
+  "Fantasy": [
+    {
+      "title": "After the Fall",
+      "medium": "Photo Manipulation",
+      "src": "after-the-fall.jpg",
+      "alt": "After the Fall"
+    },
+    {
+      "title": "Untitled",
+      "medium": "Photo Manipulation",
+      "src": "untitled.jpg",
+      "alt": "Untitled"
+    },
+    {
+      "title": "Desert Waterfall",
+      "medium": "Photo Manipulation",
+      "src": "desert-waterfall.jpg",
+      "alt": "Desert Waterfall"
+    },
+    {
+      "title": "Entrance",
+      "medium": "Digital Painting",
+      "src": "entrance.jpg",
+      "alt": "Entrance"
+    },
+    {
+      "title": "Cityscape",
+      "medium": "Digital Painting",
+      "src": "cityscape.jpg",
+      "alt": "Cityscape"
+    },
+    {
+      "title": "Eyes",
+      "medium": "Photo Manipulation",
+      "src": "eyes.jpg",
+      "alt": "Eyes"
+    },
+    {
+      "title": "Monster Portraits",
+      "medium": "Digital Painting",
+      "src": "monster-portraits.jpg",
+      "alt": "Monster Portraits"
+    },
+    {
+      "title": "Sketchbook Pages",
+      "medium": "Watercolor",
+      "src": "sketchbook-pages.jpg",
+      "alt": "Sketchbook Pages"
+    },
+    {
+      "title": "Portrait",
+      "medium": "Watercolor",
+      "src": "portrait-fantasy.jpg",
+      "alt": "Portrait"
+    },
+    {
+      "title": "Ring of Fire",
+      "medium": "Handmade Jewelry",
+      "src": "ring-of-fire.jpg",
+      "alt": "Ring of Fire"
+    },
+    {
+      "title": "Mask Process",
+      "medium": "Theatrical Mask",
+      "src": "mask-process.jpg",
+      "alt": "Mask Process"
+    },
+    {
+      "title": "Completed Mask",
+      "medium": "Theatrical Mask",
+      "src": "completed-mask.jpg",
+      "alt": "Completed Mask"
+    }
+  ]
+}
