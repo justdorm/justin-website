@@ -5,6 +5,6 @@ title: Home
 {{#each datafiles.portfolio.data}}
 <a class="image-listing category-listing col-m-12 col-6" href="/{{kebabCase @key}}">
     <p>{{@key}}</p>
-    <img src="/images/{{this.[0].src}}" alt="{{this.[0].alt}}">
+    <img src="images/{{this.[0].src}}" alt="{{this.[0].alt}}">
 </a>
 {{/each}}
