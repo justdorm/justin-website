@@ -21,6 +21,18 @@ img {
     margin: auto;
 }
 
+img.circle {
+    border-radius: 50%;
+}
+
+.right {
+    float: right;
+}
+
+.left {
+    float: left;
+}
+
 .container {
     width: 80%;
     margin: auto;
@@ -29,6 +41,10 @@ img {
 
 .content {
     padding-top: 2em;
+}
+
+.contact {
+    text-align: left;
 }
 
 header {
