@@ -5,7 +5,7 @@
   "scripts": {
     "start": "node createCategoryPages.js && jus serve ./src",
     "build": "node createCategoryPages.js && jus compile ./src ./dist",
-    "deploy": "npm run build && surge ./dist"
+    "deploy": "npm run build && surge ./dist && git add . && git commit -m \"Automated deploy commit\" && git push origin master"
   },
   "repository": {
     "type": "git",
