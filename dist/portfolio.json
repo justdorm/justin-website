@@ -101,6 +101,12 @@
       "medium": "Film Photography",
       "src": "lightbulb.jpg",
       "alt": "Lightbulb"
+    },
+    {
+      "title": "Portrait Ring",
+      "medium": "Lost Wax Jewelry",
+      "src": "Head-Ring.jpg",
+      "alt": "Portrait Ring"
     }
   ],
   "Fantasy": [
@@ -114,7 +120,7 @@
       "title": "Untitled",
       "medium": "Photo Manipulation",
       "src": "untitled.jpg",
-      "alt": "Untitled"
+      "alt": "An Untitled Image"
     },
     {
       "title": "Desert Waterfall",
