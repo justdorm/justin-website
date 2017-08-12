@@ -6,7 +6,7 @@
     "start": "node createCategoryPages.js && npm run thumbnail && jus serve ./src",
     "build": "node createCategoryPages.js && npm run thumbnail && jus compile ./src ./dist",
     "deploy": "npm run build && surge ./dist && git add . && git commit -m \"Automated deploy commit\" && git push origin master",
-    "thumbnail": "sharp -i ./src/images/*.jpg -o ./src/thumbnails resize 230"
+    "thumbnail": "node makeThumbnails.js"
   },
   "repository": {
     "type": "git",
@@ -15,7 +15,10 @@
   "author": "Jeremy Dormitzer <jeremy.dormitzer@gmail.com>",
   "peerDependencies": {
     "jus": "^0.21.0",
-    "surge": "^0.19.0",
-    "sharp-cli": "^1.2.0"
+    "surge": "^0.19.0"
+  },
+  "devDependencies": {
+    "mkdirp": "^0.5.1",
+    "sharp": "^0.18.2"
   }
 }
