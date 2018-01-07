@@ -134,18 +134,42 @@
       "src": "maria.jpg",
       "alt": "Maria"
     },
+      {
+          "title": "The Bubbles",
+          "medium": "HDR Photography",
+          "src": "bubbles.jpg",
+          "alt": "The Bubbles"
+      },
     {
       "title": "Chairs",
       "medium": "Film Photography",
       "src": "chairs.jpg",
       "alt": "Chairs"
     },
+      {
+          "title": "Coffee Shop",
+          "medium": "HDR Photography",
+          "src": "coffee-shop.jpg",
+          "alt": "Coffee Shop"
+      },
     {
       "title": "Lightbulb",
       "medium": "Film Photography",
       "src": "lightbulb.jpg",
       "alt": "Lightbulb"
-    }
+    },
+      {
+          "title": "Matt",
+          "medium": "Photography",
+          "src": "matt.jpg",
+          "alt": "Matt"
+      },
+      {
+          "title": "Ash",
+          "medium": "Photography",
+          "src": "ash.jpg",
+          "alt": "Ash"
+      }
   ],
   "Traditional Drawing and Painting": [
     {
@@ -153,6 +177,24 @@
       "medium": "Watercolor",
       "src": "portrait-fantasy.jpg",
       "alt": "Portrait"
-    }
+    },
+    {
+        "title": "Wolf",
+        "medium": "Watercolor",
+        "src": "wolf.jpg",
+        "alt": "Wolf"
+    },
+      {
+          "title": "Observational Drawings",
+          "medium": "Graphite/Charcoal",
+          "src": "observational-drawings.jpg",
+          "alt": "Observational Drawings"
+      },
+      {
+          "title": "Marker Sketches",
+          "medium": "Marker on Bristol Board",
+          "src": "marker-sketches.jpg",
+          "alt": "Marker Sketches"
+      }
   ]
 }
