@@ -53,3 +53,8 @@
        url('/fonts/Molengo-regular/Molengo-regular.ttf') format('truetype'),
        url('/fonts/Molengo-regular/Molengo-regular.svg#Molengo') format('svg');
 }
+
+@font-face {
+  font-family: 'Weber Hand';
+  src: url('/fonts/Weber-Hand/WeberHandITCStd-BoldCond.otf');
+}
