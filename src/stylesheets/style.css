@@ -5,7 +5,7 @@
 }
 
 html {
-    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Weber Hand", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 125%;
     line-height: 1.5;
     color: #444;
@@ -18,7 +18,7 @@ body {
 }
 
 h1, h2, h3, h4, h5 {
-    font-family: "Molengo", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
 }
 
 footer {
@@ -74,7 +74,7 @@ img.circle {
 }
 
 header {
-    
+
 }
 
 header > ul {
@@ -108,7 +108,7 @@ header > ul > li > a:hover {
 
 header > .home-icon {
     text-align: center;
-    overflow: 
+    overflow:
 }
 
 header > .home-icon:focus {
