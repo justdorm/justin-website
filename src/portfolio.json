@@ -77,13 +77,13 @@
     {
       "title": "Augmented Reality World",
       "medium": "Photo Manipulation",
-      "src": "AR world.jpg",
+      "src": "AR-world.jpg",
       "alt": "Augmented Reality Street"
     },
     {
       "title": "Distopian World",
       "medium": "Photo Manipulation",
-      "src": "trash land.jpg",
+      "src": "trash-land.jpg",
       "alt": "Distopian Reality Street"
     }
   ],
@@ -91,7 +91,7 @@
     {
       "title": "Pig Mask",
       "medium": "Theatrical Mask",
-      "src": "final pic 1.jpg",
+      "src": "final-pic-1.jpg",
       "alt": "Pig Mask"
     },
     {
@@ -121,7 +121,7 @@
       "alt": "Portrait Ring"
     }
   ],
-  "Photography":[
+  "Photography": [
     {
       "title": "The Square",
       "medium": "Photography",
@@ -147,7 +147,7 @@
       "alt": "Lightbulb"
     }
   ],
-  "Traditional Drawing and Painting":[
+  "Traditional Drawing and Painting": [
     {
       "title": "Portrait",
       "medium": "Watercolor",
