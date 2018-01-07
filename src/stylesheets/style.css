@@ -22,11 +22,8 @@ h1, h2, h3, h4, h5 {
 }
 
 footer {
-    bottom: 0;
-    right: 0;
-    left: 0;
-    height: 1.5em;
     text-align: center;
+    width: 100%;
 }
 
 footer > span {
@@ -88,7 +85,6 @@ header > ul {
         float: right;
     }
     footer {
-        position: absolute;
         margin-bottom: 0.5em;
     }
     footer > span {
