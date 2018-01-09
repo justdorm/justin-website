@@ -3,8 +3,10 @@ title: Home
 -->
 <h1>Justin Dormitzer</h1>
 {{#each datafiles.portfolio.data}}
-<a class="image-listing category-listing col-m-12 col-6" href="{{kebabCase @key}}">
-    <p>{{@key}}</p>
-    <img src="thumbnails_lrg/{{this.[0].src}}" alt="{{this.[0].alt}}">
-</a>
+<div class="col-m-12 col-6">
+    <a class="image-listing category-listing" href="{{kebabCase @key}}">
+        <p>{{@key}}</p>
+        <img src="thumbnails_lrg/{{this.[0].src}}" alt="{{this.[0].alt}}">
+    </a>
+</div>
 {{/each}}

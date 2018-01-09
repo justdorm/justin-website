@@ -117,11 +117,15 @@ header + * {
 
 .image-listing {
     text-decoration: none;
-    transition: opacity 0.3s;
+    cursor: default;
+    transition: opacity 0.3s color 0.3s;
 }
 
 .image-listing:hover {
-    opacity: 0.5;
+
+.image-listing:hover {
+    opacity: 0.9;
+    cursor: pointer;
 }
 
 .image-listing:focus {

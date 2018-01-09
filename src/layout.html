@@ -25,10 +25,12 @@
                 <h1>{{page.category}}</h1>
                 <div class="row">
                     {{#each (lookup datafiles.portfolio.data page.category)}}
-                    <a class="image-listing col-s-12 col-3" href="images/{{this.src}}">
-                        <h4 class="image-heading">{{this.title}}</h4>
-                        <img src="thumbnails/{{this.src}}" alt="{{this.alt}}">
-                    </a>
+                    <div class="col-s-12 col-3">
+                        <a class="image-listing" href="images/{{this.src}}">
+                            <h4 class="image-heading">{{this.title}}</h4>
+                            <img src="thumbnails/{{this.src}}" alt="{{this.alt}}">
+                        </a>
+                    </div>
                     {{/each}}
                 </div>
                 {{else}}
