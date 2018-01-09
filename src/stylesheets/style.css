@@ -102,7 +102,7 @@ header > ul > li > a {
 }
 
 header > ul > li > a:hover {
-    color: #a6d5e5;
+    color: #ec4a93;
 }
 
 header > .home-icon {
@@ -125,6 +125,8 @@ header + * {
 }
 
 .image-listing:hover {
+    color: #ec4a93;
+}
 
 .image-listing:hover {
     opacity: 0.9;
