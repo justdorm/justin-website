@@ -54,12 +54,15 @@ img.circle {
     margin: auto;
     text-align: center;
     position: relative;
+    display: flex;
+    flex-direction: column;
 }
 
 .content {
     padding-top: 2em;
     padding-bottom: 1.5em;
     min-height: 100%;
+    flex: 1;
 }
 
 .content::after {
